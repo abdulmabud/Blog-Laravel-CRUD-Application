@@ -1,0 +1,56 @@
+.navbar-nav a:focus { color: rgb(223, 39, 39) !important;}
+.navbar-nav a:hover { color: rgb(37, 14, 168) !important; }
+.navbar-nav a:active { color: rgb(20, 207, 45) !important; }
+
+.navbar-nav a{
+ color: #E0E3E9;
+}
+.navbar{
+    background:#3C5A98;
+    
+}
+
+.mainContent{
+    background: #F7F7FF;
+}
+
+.page-footer{
+    background: #3C5A98;
+    color: black;
+}
+.page-footer a{
+    color: black;
+}
+.socialTilte{
+    background: #FDFDFF;
+}
+
+.facebook a{
+    background: rebeccapurple;
+}
+.twitter a{
+    background: red;
+}
+
+.login{
+    background: #F7F7FF;
+    height: 350px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
