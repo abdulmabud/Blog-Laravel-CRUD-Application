@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -47,4 +43,8 @@ Route::get('dashboard', 'CategoryController@admin')->name('admin');
 // UserController
 
 Route::get('/', 'UserController@index');
+Route::get('category/{id}', 'UserController@category')->name('category');
+Route::get('users/{id}', function ($id) {
+    
+});
 Route::get('/mm', 'UserController@mess');

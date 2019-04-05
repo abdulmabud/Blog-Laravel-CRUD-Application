@@ -49,15 +49,11 @@
                 <div class="socialIcon">
                     <ul>
                         <li><a href="" class="fa fa-facebook"></a></li>
-                        <li class="twitter"><a href=""></a></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><a href="" class="fa fa-twitter"></a></li>
+                        <li><a href="" class="fa fa-google-plus"></a></li>
+                        <li><a href="" class="fa fa-linkedin"></a></li>
+                        <li><a href="" class="fa fa-instagram"></a></li>
+                        
                     </ul>
                 </div>
             </div>

@@ -9,6 +9,17 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ url('/')}}">Category</a>
+            
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                @foreach ($links as $link)
+                <a class="dropdown-item" href="{{ route('category', $link->id) }}">{{ $link->name }}</a>
+                @endforeach
+               
+            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ url('/')}}">Service</a>
