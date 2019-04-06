@@ -10,6 +10,8 @@
     <div class="col-sm-6">
         <button class="btn btn-primary btn-block"><a class="text-light btn btn-block" href="{{ route('posts.index') }}">All Post</a></button> <br>
 
+        <button class="btn btn-primary btn-block"><a class="text-light btn btn-block" href="{{ route('posts.indexAdmin') }}">My Post (Current Admin Post)</a></button> <br>
+
         <button class="btn btn-primary btn-block"><a class="text-light btn btn-block" href="{{ route('posts.create') }}">Create Post</a></button> <br>
 
         <button class="btn btn-primary btn-block"><a class="text-light btn btn-block" href="{{ route('categories.index') }}">All Category</a></button> <br>

@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 
 use App\Post;
 use App\Category;
+use App\User;
 use Auth;
 
 class PostController extends Controller
@@ -20,6 +21,14 @@ class PostController extends Controller
       $data['posts'] = Post::all();
      
         return view('Admin.indexPost', $data);
+    }
+
+    public function postsAdmin(){
+      $user_id = Auth::user()->id;
+      $user = User::find($user_id);
+    
+      $data['posts'] = $user->posts;
+      return view('Admin.indexPostByAdmin', $data);
     }
     public function create(){
       $data['categories'] = Category::all();
@@ -141,4 +150,6 @@ class PostController extends Controller
       $post->delete();
       return redirect()->route('posts.index')->with('success', 'Post Delete successfully');
     }
+
+
 }

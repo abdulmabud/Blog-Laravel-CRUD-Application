@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-All Post
+Current Admin Post
 @endsection
 
 @section('content')
