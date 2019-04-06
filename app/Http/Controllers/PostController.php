@@ -11,6 +11,10 @@ use Auth;
 
 class PostController extends Controller
 {
+
+    public function __construct(){
+      return $this->middleware('auth');
+    }
     public function index(){
 
       $data['posts'] = Post::all();

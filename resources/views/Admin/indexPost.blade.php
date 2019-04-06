@@ -13,6 +13,8 @@
       <th>Post Title</th>
       <th>Post Author</th>
       <th>Post Description</th>
+      <th></th>
+      <th></th>
       <th>Action</th>
       
 
